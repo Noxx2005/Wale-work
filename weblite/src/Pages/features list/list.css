@@ -9,6 +9,8 @@
     font-size: 2rem;
     margin-bottom: 2rem;
     color: #0551FD;
+    height: max-content;
+    border-top: .5px black solid;
   }
   
   .device-list {
