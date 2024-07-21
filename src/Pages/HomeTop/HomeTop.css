@@ -58,8 +58,11 @@
   }
   
   .table th.text-center,
-  .table td.text-center {
+  .table td.text-center,.text-center {
     text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
   }
   
   .table td.no-border {

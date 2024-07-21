@@ -25,7 +25,7 @@ const HomeTop = () => {
                   marginBottom: "20px",
                 }}
               >
-                <h2 className="text-center">Increased Productivity</h2>
+                <h3 className="text-center">Increased Productivity</h3>
                 <ul className="plus">
                   <li>No more missed calls</li>
                   <li>Mobile enabled</li>
