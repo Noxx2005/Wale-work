@@ -1,0 +1,71 @@
+/* Header.css */
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border:1px white solid;
+    border-radius: 5px;
+  }
+  
+  .header-scrolled {
+    background: linear-gradient(360deg, hsla(223, 100%, 50%, 1) 0%, hsla(222, 98%, 51%, 1) 0%, hsla(176, 68%, 62%, 1) 100%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 1.25rem;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .logo-scrolled {
+    color: #2d3748; /* text-gray-800 */
+  }
+  
+  .nav {
+    display: none;
+  }
+  
+  .nav-link {
+    font-size: 1.125rem;
+    text-decoration: none;
+    margin: 0 8px;
+    color: aliceblue;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link-scrolled {
+    color: black; /* text-gray-800 */
+  }
+  
+  .nav-link-scrolled:hover {
+    color: white; /* text-gray-600 */
+  }
+  
+  .nav-link:hover {
+    color: white; /* text-gray-200 */
+  }
+  
+  @media (min-width: 1024px) {
+    .nav {
+      display: flex;
+      gap: 46px;
+
+    }
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+  
