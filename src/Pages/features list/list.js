@@ -1,6 +1,6 @@
 import React from 'react';
-import './list.css';
-import pic1 from '../../Assets/pexels-cottonbro-4065906.jpg'; // Import the images
+import './list.css'; // Ensure the correct path
+import pic1 from '../../Assets/pexels-cottonbro-4065906.jpg';
 import pic2 from '../../Assets/pexels-essow-k-251295-1042143.jpg';
 import pic3 from '../../Assets/pexels-jessbaileydesign-788946.jpg';
 import pic4 from '../../Assets/pexels-lastly-699122.jpg';

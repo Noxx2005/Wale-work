@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import logo from "../../Assets/logo2-removebg-preview.png";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,41 +23,35 @@ const Header = () => {
     };
   }, []);
 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <div>
       <div className="">
         <header className={`header ${isScrolled ? "header-scrolled" : ""}`}>
           <div className="header-content">
             <a href="/" className={`logo ${isScrolled ? "logo-scrolled" : ""}`}>
-              <img src={logo} className="logo"></img>
+              <img src={logo} className="logo" alt="Logo" />
             </a>
-            <nav className="nav">
-              <a
-                href="/"
-                className={`nav-link ${isScrolled ? "nav-link-scrolled" : ""}`}
-              >
-               Home
+            <nav className={`nav ${isMenuOpen ? "nav-open" : ""}`}>
+              <a href="/" className={`nav-link ${isScrolled ? "nav-link-scrolled" : ""}`}>
+                Home
               </a>
-              <a
-                href="/virtual"
-                className={`nav-link ${isScrolled ? "nav-link-scrolled" : ""}`}
-              >
+              <a href="/virtual" className={`nav-link ${isScrolled ? "nav-link-scrolled" : ""}`}>
                 Virtual
               </a>
-              <a
-                href="/features"
-                className={`nav-link ${isScrolled ? "nav-link-scrolled" : ""}`}
-              >
+              <a href="/features" className={`nav-link ${isScrolled ? "nav-link-scrolled" : ""}`}>
                 Features
               </a>
-              <a
-                href="/industries"
-                className={`nav-link ${isScrolled ? "nav-link-scrolled" : ""}`}
-              >
+              <a href="/industries" className={`nav-link ${isScrolled ? "nav-link-scrolled" : ""}`}>
                 Industries
               </a>
             </nav>
-            <div className="menu-icon"></div>
+            <div className="menu-icon" onClick={toggleMenu}>
+              {isMenuOpen ? <FaTimes /> : <FaBars />}
+            </div>
           </div>
         </header>
       </div>

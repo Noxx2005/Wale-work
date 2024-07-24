@@ -11,8 +11,6 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="page34">
-       {/* <TopBar /> */}
-
       <Slideshow/>
       <Header/>
       <HomeTop/>

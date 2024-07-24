@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 1997-2024 Callture™ Communications Inc. All rights reserved.</p>
+        <p>© 1997-2024 Emparex™ Communications Inc. All rights reserved.</p>
       </div>
     </footer>
   );

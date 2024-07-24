@@ -51,7 +51,7 @@ const VirtualPage = () => {
                 Start 30-day free trial
               </a>
               <p>
-                An affordable system built for small businesses. Callture offers
+                An affordable system built for small businesses. Emparex offers
                 a special Virtual phone system package that will cater to all
                 your communication needs. If you want a custom package, call our
                 representatives today and they will set you up with the
@@ -86,13 +86,13 @@ const VirtualPage = () => {
               </p>
               <p>
                 Choose the best business phone system for your business. The
-                Callture's Virtual telephone system narrow34s down the hassle of
+                Emparex's Virtual telephone system narrow34s down the hassle of
                 handling phone calls, faxes, voice mails, video conferences, and
                 texts all within one system. Whether you are a one-man business,
-                a medium-sized business or a corporate business Callture has got
+                a medium-sized business or a corporate business Emparex has got
                 your back.
               </p>
-              <a href="https://www.callture.com/pricing.html" className="btn2">
+              <a href="https://www.Emparex.com/pricing.html" className="btn2">
                 See plans &gt;&gt;
               </a>
             </div>
@@ -177,7 +177,7 @@ const VirtualPage = () => {
                     system and then emailed to you.
                   </li>
                   <li>
-                    Callture virtual telephone system sends you a text message
+                    Emparex virtual telephone system sends you a text message
                     if your receptionist misses a call and doesn't call back
                     within 15 minutes.
                   </li>
@@ -212,7 +212,7 @@ const VirtualPage = () => {
                 <p className="font-weight-medium">06. Unified Communication</p>
                 <ul className="plus">
                   <li>
-                    Callture Unified Communication includes video conferencing,
+                    Emparex Unified Communication includes video conferencing,
                     chat, text, and presence.
                   </li>
                   <li>
@@ -229,7 +229,7 @@ const VirtualPage = () => {
                   </li>
                 </ul>
                 <p className="font-weight-medium">
-                  08. Send and Receive Texts with Your Callture Business Number
+                  08. Send and Receive Texts with Your Emparex Business Number
                 </p>
                 <ul className="plus">
                   <li>
@@ -238,7 +238,7 @@ const VirtualPage = () => {
                     phone.
                   </li>
                   <li>
-                    When a customer sends a text to your Callture business
+                    When a customer sends a text to your Emparex business
                     number, it is forwarded to your cell phone.
                   </li>
                   <li>

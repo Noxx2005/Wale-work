@@ -4,6 +4,8 @@ import ContactForm from "../Contact/ContactForm";
 import Footer from "../Footer/Footer";
 import "./features.css";
 import pic1 from "../../Assets/finance.jpg";
+import { faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Accordion = ({ title, content }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +18,7 @@ const Accordion = ({ title, content }) => {
     <div className="accordion-item">
       <div className="accordion-header" onClick={toggleAccordion}>
         <p className="accordion-title">{title}</p>
+        <FontAwesomeIcon icon={isOpen ? faCaretUp : faCaretDown} /> {/* Use icon based on isOpen state */}
       </div>
       <div className={`accordion-content ${isOpen ? 'open' : ''}`}>
         <ul className="accordion-list">
@@ -31,21 +34,21 @@ const FeaturePage = () => {
     <div>
       <Header />
       <div className="main2">
-        <div className="container page-top-box page-top-features">
+        <div className="containerr page-top-box page-top-features">
           <div className="roww">
             <div className="col-lg-3 col-sm-12 no-padding">
-              <img src={pic1} alt="Features" />
+              <img src={pic1} alt="Features" className='pic1' />
             </div>
             <div className="col-lg-7 col-sm-12 col-xl-6 top-text">
               <h1 className="subpage-title">
                 Robust VOIP Business Phone System Features
               </h1>
               <h4>
-                Callture business phone service is fully loaded with the latest
+                Emparex business phone service is fully loaded with the latest
                 features to ensure your business has the complete flexibility it
                 needs to ensure you stay ahead of competitors in your industry.
                 Importantly, never miss another important call with the{" "}
-                <a href="https://www.callture.com/products/2-line-business-phones.html">
+                <a href="https://www.Emparex.com/products/2-line-business-phones.html">
                   multi line phone system
                 </a>{" "}
                 setup in your office.

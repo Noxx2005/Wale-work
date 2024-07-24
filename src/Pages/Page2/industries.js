@@ -16,15 +16,14 @@ const Industries = () => {
     <div className="">
       <Header/>
       <div className="ContainerJ">
-        <div class="rowz">
+        <div class="rowzr">
           <div class="col-md-6">
             <h1 class="subpage-title">
               Industries for Business Phone Services
             </h1>
             <h4>
-              Callture business phone service caters to the industry-specific
-              needs of our business customers by incorporating the future-proof
-              features required to gain and maintain your competitive advantage.{" "}
+              Emparex business phone service caters to the industry-specific needs of our business customers by incorporating the future-proof
+              features required to gain and maintain your competitive advantage.
             </h4>
           </div>
         </div>
@@ -32,47 +31,47 @@ const Industries = () => {
       <div class="industries-list">
                 {/* <div class="rowz">
                     <div class="col-sm-6 col-md-4">
-                        <a href="industry-realestate.html" class="btn-move"><img src="" alt="real estate"/></a>
+                        <a href="industry-realestate.html" class="btn-move"><img className="pic00" src="" alt="real estate"/></a>
                         <a href="industry-realestate.html" class="btn-move">Real Estate <span>⟶</span></a>
                     </div>
                     <div class="col-sm-6 col-md-4">
-                        <a href="industry-medical.html" class="btn-move"><img src="img/img_ind_medicine.jpg" alt="medicine"/></a>
+                        <a href="industry-medical.html" class="btn-move"><img className="pic00" src="img className="pic00"/img className="pic00"_ind_medicine.jpg" alt="medicine"/></a>
                         <a href="industry-medical.html" class="btn-move">Medicine <span>⟶</span></a>
                     </div>
 
                 </div> */}
                 <div class="rowz">
                     <div class="col-sm-6 col-md-4">
-                        <a href="industry-logistics.html" class="btn-move"><img src={pic05} alt="shipping"/></a>
-                        <a href="industry-logistics.html" class="btn-move">Shipping/Logistics <span>⟶</span></a>
+                        <a href="industry-logistics.html" class="btn-move"><img className="pic00" src={pic05} alt="shipping"/></a>
+                        <a href="industry-logistics.html" class="btn-move">Shipping/Logistics <span className="arrow">⟶</span></a>
                     </div>
                     <div class="col-sm-6 col-md-4">
-                        <a href="industry-tech.html" class="btn-move"><img src={pic06} alt="information technology"/></a>
-                        <a href="industry-tech.html" class="btn-move">Information Technology <span>⟶</span></a>
+                        <a href="industry-tech.html" class="btn-move"><img className="pic00" src={pic06} alt="information technology"/></a>
+                        <a href="industry-tech.html" class="btn-move">Information Technology <span className="arrow">⟶</span></a>
                     </div>
 
                 </div>
                 <div class="rowz">
 
                     <div class="col-sm-6 col-md-4">
-                        <a href="industry-finance.html" class="btn-move"><img src={pic01} alt="finance"/></a>
-                        <a href="industry-finance.html" class="btn-move">Finance &amp; Accounting <span>⟶</span></a>
+                        <a href="industry-finance.html" class="btn-move"><img className="pic00" src={pic01} alt="finance"/></a>
+                        <a href="industry-finance.html" class="btn-move">Finance &amp; Accounting <span className="arrow">⟶</span></a>
                     </div>
                     <div class="col-sm-6 col-md-4">
-                        <a href="industry-law.html" class="btn-move"><img src={pic03} alt="law"/></a>
-                        <a href="industry-law.html" class="btn-move">Law &amp; Paralegal <span>⟶</span></a>
+                        <a href="industry-law.html" class="btn-move"><img className="pic00" src={pic03} alt="law"/></a>
+                        <a href="industry-law.html" class="btn-move">Law &amp; Paralegal <span className="arrow">⟶</span></a>
                     </div>
                 </div>
 
                 <div class="rowz">
 
                     <div class="col-sm-6 col-md-4">
-                        <a href="industry-manufacturing.html" class="btn-move"><img src={pic02} alt="manufacturing"/></a>
-                        <a href="industry-manufacturing.html" class="btn-move">Manufacturing <span>⟶</span></a>
+                        <a href="industry-manufacturing.html" class="btn-move"><img className="pic00" src={pic02} alt="manufacturing"/></a>
+                        <a href="industry-manufacturing.html" class="btn-move">Manufacturing <span className="arrow">⟶</span></a>
                     </div>
                     <div class="col-sm-6 col-md-4">
-                        <a href="industry-insurance.html" class="btn-move"><img src={pic04} alt="insurance"/></a>
-                        <a href="industry-insurance.html" class="btn-move">Insurance <span>⟶</span></a>
+                        <a href="industry-insurance.html" class="btn-move"><img className="pic00" src={pic04} alt="insurance"/></a>
+                        <a href="industry-insurance.html" class="btn-move">Insurance <span className="arrow">⟶</span></a>
                     </div>
 
                 </div>

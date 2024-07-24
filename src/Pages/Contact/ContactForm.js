@@ -4,7 +4,7 @@ import './ContactForm.css'; // Import the CSS file
 const ContactForm = () => {
   return (
     <div className="contact-form-container">
-      <h2 className="titlew">Have a Callture specialist contact you today!</h2>
+      <h2 className="titlew">Have a Emparex specialist contact you today!</h2>
       <form className="contact-form">
         <div className="form-group">
           <label htmlFor="email">Your email</label>
