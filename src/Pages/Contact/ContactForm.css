@@ -7,6 +7,7 @@
   .titlew {
     font-size: 2rem;
     margin-bottom: 2rem;
+    color: #393E46 ;
   }
   
   .contact-form {
@@ -64,16 +65,15 @@
     margin-top: 100px;
     margin-left: 100px;
     text-decoration: none;
-
-
-    background: linear-gradient(360deg, hsla(223, 100%, 50%, 1) 0%, hsla(222, 98%, 51%, 1) 0%, hsla(176, 68%, 62%, 1) 100%);
-    border: none;
+    background:#393E46 ;
+    border: .5px #F8B500 solid;
     border-radius: 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   
   .btn-hvr-dark:hover {
-    background-color: darkgray;
+    background-color: white;
+    color: #393E46;
   }
   
   .note {

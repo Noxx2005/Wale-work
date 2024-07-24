@@ -36,6 +36,7 @@
   .table .table-title1 {
     font-size: 1.8rem;
     font-weight: bold;
+    color: #393E46 ;
     margin-bottom: 0.5rem;
     margin-top: 130px;
 }
@@ -53,20 +54,24 @@
     content: "+";
     margin-right: 10px;
     left: 0;
-    color: #0551FD;
+    color: #F8B500;
     font-weight: bold;
   }
   
   .table th.text-center,
   .table td.text-center,.text-center {
     text-align: center;
+    color: #393E46 ;
     font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
   }
   
-  .table td.no-border {
-
+  .table td.no-border1 {
+    padding-top: 54px;
+    vertical-align: top;
+    border-top: .5px solid #dee2e6;
+    
   }
   
   .row1 {
@@ -107,6 +112,7 @@
   .reviewer-name {
     font-size: 1rem;
     margin-bottom: 0.5rem;
+    color: #F8B500;
   }
   
   .review-star {
@@ -120,7 +126,6 @@
     height: 20px;
     background-image: url('../../Assets/pngegg.png'); /* Replace with actual star image path */
     background-size: cover;
-    color: #0551FD;
     margin-right: 5px;
   }
   
@@ -142,15 +147,15 @@
     margin: 10px 0;
     font-size: 1rem;
     color: white;
+    border: .5px #F8B500 solid;
     text-decoration: none;
-    background-color: #0551FD;
-    border: none;
+    background-color:#393E46;
     margin-top: 200px;
     border-radius: 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   
   .btn-hvr-dark:hover {
-    background-color: black ;
+    border: .5px #F8B500 solid;
   }
   

@@ -19,7 +19,7 @@ const HomeTop = () => {
                 <h2 className="table-title1">We cost less and deliver more</h2>
               </td>
               <td
-                className="no-border"
+                className="no-border1"
                 style={{
                   borderLeft: ".5px solid #dee2e6",
                   marginBottom: "20px",
@@ -61,7 +61,7 @@ const HomeTop = () => {
                   borderLeft: ".5px solid #dee2e6",
                 }}
               >
-                <h3 className="table-title">Guaranteed Reliability</h3>
+                <h3 className="text-center">Guaranteed Reliability</h3>
                 <ul className="plus">
                   <li>99.999% uptime</li>
                   <li>HD call quality</li>
@@ -76,7 +76,7 @@ const HomeTop = () => {
                   borderRight: ".5px solid #dee2e6",
                 }}
               >
-                <h3 className="table-title">Seamless Switching</h3>
+                <h3 className="text-center">Seamless Switching</h3>
                 <ul className="plus">
                   <li>On-site evaluation</li>
                   <li>In-person installation</li>
@@ -91,7 +91,7 @@ const HomeTop = () => {
       <div className="container">
         <div className="row1">
           <div className="col-md-6 b-right padding-3">
-            <h3 className="reviews-title">70+ Google Reviews</h3>
+            <h3 className="reviews-title">70+ Customer Reviews</h3>
             <div className="reviewer-name">Roger D.C.</div>
             <div className="review-star">
               <div className="star-img"></div>

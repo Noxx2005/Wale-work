@@ -6,10 +6,11 @@ import HomeTop from '../HomeTop/HomeTop';
 import Home3 from '../features list/list';
 import ContactForm from '../Contact/ContactForm';
 import Footer from '../Footer/Footer';
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div className=''>
+    <div className="page34">
        {/* <TopBar /> */}
 
       <Slideshow/>
