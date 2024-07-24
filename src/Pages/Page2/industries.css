@@ -1,0 +1,44 @@
+.ContainerJ{
+    margin-top: 90px;
+    margin-bottom: 55px;
+}
+.rowz{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: 65px;
+}
+@media (min-width: 768px) {
+    .col-md-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+h1.subpage-title, h4.subpage-title {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 800;
+    color: #e84800;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 25px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.industries-list {
+    margin: 0 0 90px;
+}
+@media (min-width: 768px) {
+    .col-md-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}

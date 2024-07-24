@@ -1,0 +1,125 @@
+@media (max-width: 1199.98px) {
+    main[role="main"] {
+        padding-top: 98px;
+    }
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1060px;
+    }
+}
+
+.page-top-virtualphone {
+    padding-bottom: 38px;
+}
+
+.row34 {
+    display: flex;
+    flex-wrap: inherit;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.row3 {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 50px;
+}
+
+.mt-5, .my-5 {
+    margin-top: 3rem !important;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 3rem !important;
+}
+
+.color-orange {
+    color: #ea4901;
+    font-size: 50px;
+}
+.color-orange2 {
+    color: #ea4901;
+}
+
+.page-top-virtualphone h2 {
+    margin-bottom: 18px;
+}
+
+h2 {
+    font-size: 2.4375rem;
+    line-height: 90px; 
+    font-weight: 500;
+}
+.font-weight-medium{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: large;
+    font-weight: 500;
+    color: hsla(223, 100%, 50%, 1);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.card-header {
+    cursor: pointer;
+}
+
+.btn-start-trial, .btn2, .btn-white {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    background-color: #0551FD;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    /* transition: background-color 0.3s ease, color 0.3s ease;
+    /* Add your button styles here */
+}
+
+.input-field {
+    position: relative;
+    /* Add additional styles for input fields */
+}
+
+.input-field input {
+    width: 100%;
+    /* Add additional styles for input elements */
+}
+
+.input-field .label {
+    position: absolute;
+    /* Add additional styles for label elements */
+}
+
+.input-field .border {
+    position: absolute;
+    /* Add additional styles for border elements */
+}
