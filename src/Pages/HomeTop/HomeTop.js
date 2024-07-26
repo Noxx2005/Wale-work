@@ -5,7 +5,7 @@ import pic1 from "../../Assets/vecteezy_man-using-voip-headset-with-digital-tabl
 const HomeTop = () => {
   return (
     <div className="home-top">
-      <div className="container">
+      <div className="Container2e">
         <table className="table">
           <thead>
             <tr>{/* <th></th> */}</tr>
@@ -88,7 +88,7 @@ const HomeTop = () => {
         </table>
       </div>
 
-      <div className="container">
+      <div className="Container2e">
         <div className="row1">
           <div className="col-md-6 b-right padding-3">
             <h3 className="reviews-title">5 Star Capabilities</h3>
@@ -102,8 +102,8 @@ const HomeTop = () => {
               <div className="star-value">5.0</div>
             </div>
             <p className="quote">
-              “Excellent service provider. The business telecom systems
-              are reliable and their service is cost effective, coupled with
+              “We Provide Excellent service. Our business telecom systems
+              are reliable and our service is cost effective, coupled with
               superb, friendly customer support”
             </p>
             {/* <a href="google-reviews.html" className="btn btn-hvr-dark">

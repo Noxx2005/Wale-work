@@ -32,6 +32,7 @@
 
 .page-top-virtualphone {
     padding-bottom: 38px;
+   
 }
 
 .row34 {
@@ -66,7 +67,10 @@
 .page-top-virtualphone h2 {
     margin-bottom: 18px;
 }
-
+.col23{
+    margin-bottom: 18px;
+    color: #F8B500;
+}
 h2 {
     font-size: 2.4375rem;
     line-height: 90px; 
@@ -80,6 +84,7 @@ h2 {
     font-weight: 500;
     color:#F8B500
 }
+
 
 p {
     margin-top: 0;

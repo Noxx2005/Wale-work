@@ -3,7 +3,9 @@ import Header from "../Navbar/Navbar";
 import ContactForm from "../Contact/ContactForm";
 import Footer from "../Footer/Footer";
 import "./virtual.css";
-import pic1 from "../../Assets/finance.jpg";
+import pic1 from "../../Assets/happy-businesswoman-reading-something-internet-while-using-computer-office.jpg";
+import { faCaretDown, faCaretUp } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Accordion = ({ title, content }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +18,10 @@ const Accordion = ({ title, content }) => {
     <div className="accordion-item">
       <div className="accordion-header" onClick={toggleAccordion}>
         <p className="accordion-title">{title}</p>
+        <FontAwesomeIcon
+          icon={isOpen ? faCaretUp : faCaretDown}
+          color="orange"
+        />
       </div>
       <div className={`accordion-content ${isOpen ? "open" : ""}`}>
         <ul className="accordion-list">
@@ -39,17 +45,17 @@ const VirtualPage = () => {
               </h1>
               <h2>Packed with Services and Features You Can Use</h2>
               <p>
-                No Contract &amp; Instant Activation. Starting at{" "}
-                <span className="color-orange2">$9.95.</span>
+                {/* No Contract &amp; Instant Activation. Starting at{" "}
+                <span className="color-orange2">$9.95.</span> */}
               </p>
             </div>
           </div>
 
           <div className="row34">
             <div className="col-sm-12">
-              <a href="vpbx-signup.html" className="btn2 btn-start-trial mb-5">
+              {/* <a href="vpbx-signup.html" className="btn2 btn-start-trial mb-5">
                 Start 30-day free trial
-              </a>
+              </a> */}
               <p>
                 An affordable system built for small businesses. Emparex offers
                 a special Virtual phone system package that will cater to all
@@ -69,31 +75,32 @@ const VirtualPage = () => {
                 height="296"
               />
             </div>
-            <div className="col-lg-7 top-text">
-              <h2>Modern VoIP Service for Business</h2>
+            <div>
+              <h2 className="col23">Modern VoIP Service for Business</h2>
             </div>
           </div>
 
           <div className="row34">
             <div className="col-sm-12">
               <p>
-                Getting a business phone number is one of the great marketing
-                decisions and adding a phone number that clients can remember is
-                the cherry on top, they can dial straight up your number and
-                talk business. Frequent connection and clear communication with
-                clients add additional value to your business's authenticity and
-                operation.
+                A reliable business phone number is crucial for effective
+                communication and can significantly enhance your company's
+                professional image. With a memorable phone number, clients can
+                easily reach out, fostering frequent and clear communication
+                that adds value to your business's credibility and operations.
               </p>
               <p>
-                Choose the best business phone system for your business. The
-                Emparex's Virtual telephone system narrow34s down the hassle of
-                handling phone calls, faxes, voice mails, video conferences, and
-                texts all within one system. Whether you are a one-man business,
-                a medium-sized business or a corporate business Emparex has got
-                your back.
+                Choose the best VoIP phone system for your business with
+                Emparex. Our virtual telephone system streamlines your
+                communication needs by integrating phone calls, faxes,
+                voicemails, video conferences, and texts into one unified
+                system. Whether you are a small startup, a growing medium-sized
+                business, or a large corporation, Emparex provides the tools and
+                support to keep your communications seamless and efficient.
               </p>
-              <a href="https://www.Emparex.com/pricing.html" className="btn2">
-                See plans &gt;&gt;
+
+              <a href="/features" className="btn2">
+                Learn More &gt;&gt;
               </a>
             </div>
           </div>
@@ -103,7 +110,7 @@ const VirtualPage = () => {
           <div className="container">
             <div className="row34">
               <div className="col-lg-12">
-                <h2>Find a number your clients can remember</h2>
+                {/* <h2>Find a number your clients can remember</h2> */}
               </div>
             </div>
           </div>
@@ -124,61 +131,45 @@ const VirtualPage = () => {
                 <p className="font-weight-medium">01. Toll-Free Number</p>
                 <ul className="plus">
                   <li>
-                    A virtual toll-free number offers a big-company image to
-                    clients who want to contact you free of charge from
+                    Enhance your business image with a virtual toll-free number,
+                    allowing clients to contact you free of charge from
                     anywhere.
                   </li>
                   <li>
-                    We offer a variety of toll-free number types, from 800, 844,
-                    855, 866, 877, and 888 prefixes to vanity numbers.
-                  </li>
-                  <li>
-                    A vanity number is a phone number that spells a name such as
-                    1-800-FLOWERS or 1-855-COMPANY.
+                    Choose from a variety of toll-free prefixes: 800, 844, 855,
+                    866, 877, and 888, or opt for a memorable vanity number like
+                    1-800-FLOWERS.
                   </li>
                 </ul>
                 <p className="font-weight-medium">02. Local Number</p>
                 <ul className="plus">
                   <li>
-                    A local number can drive sales by providing a local presence
-                    in any target city.
+                    Establish a local presence in any target city with a local
+                    number, driving sales through geographically targeted
+                    advertising.
                   </li>
                   <li>
-                    Clients use local numbers as a key part of geographically
-                    targeted advertising.
-                  </li>
-                  <li>
-                    We provide numbers for all major cities, which can be
-                    forwarded to any number.
+                    Obtain numbers for all major cities, which can be forwarded
+                    to any preferred number.
                   </li>
                 </ul>
-                <p className="font-weight-medium">
-                  03. Never Miss a Call - Quick and Easy Programming
-                </p>
+                <p className="font-weight-medium">03. Never Miss a Call</p>
                 <ul className="plus">
                   <li>
                     Forward calls from your business phone system to your
-                    mobile, landline, or VoIP.
+                    mobile, landline, or VoIP seamlessly.
                   </li>
                   <li>
-                    Our Call forwarding feature allows you to forward calls to
-                    all your phone numbers simultaneously or sequentially.
+                    Customize call forwarding to ring all your devices
+                    simultaneously or sequentially, ensuring you never miss a
+                    call.
                   </li>
                   <li>
-                    Calls can ring your mobile phone for 2 rings, and then ring
-                    your landline for 3 rings, etc.
+                    Missed calls are sent to a professional voicemail system and
+                    emailed to you for easy access.
                   </li>
                   <li>
-                    Calls can ring all your numbers simultaneously — you can
-                    answer using any phone.
-                  </li>
-                  <li>
-                    If you miss a call, it’s sent to a professional voicemail
-                    system and then emailed to you.
-                  </li>
-                  <li>
-                    Emparex virtual telephone system sends you a text message
-                    if your receptionist misses a call and doesn't call back
+                    Receive text alerts if a call is missed and not returned
                     within 15 minutes.
                   </li>
                 </ul>
@@ -187,81 +178,69 @@ const VirtualPage = () => {
                 </p>
                 <ul className="plus">
                   <li>
-                    To add a big company feel, you can use a custom main
-                    greeting to inform callers of their options, such as
-                    accessing information or reaching a specific department. It
-                    can say "Welcome to ABC company. Please press 1 for sales, 2
-                    for support", etc and portray as a virtual receptionist.
+                    Use a custom main greeting to inform callers of their
+                    options, such as accessing information or reaching specific
+                    departments, giving a professional image of a virtual
+                    receptionist.
                   </li>
                 </ul>
                 <p className="font-weight-medium">05. Internet Fax</p>
                 <ul className="plus">
                   <li>
-                    You will be given a separate fax number. Your clients can
-                    send faxes to this number the same way they do. However,
-                    when a fax is received by our system, it will be converted
-                    to a PDF and emailed to you.
+                    Receive faxes directly to your email as PDF files without
+                    the need for a fax machine, saving costs on separate fax
+                    lines and equipment.
                   </li>
                   <li>
-                    You can send faxes from our site to any number from
-                    anywhere. You will have access to your faxes from anywhere.
-                    You don't need to pay extra for a separate fax line, fax
-                    machine, and toners.
+                    Send faxes from our site to any number from anywhere,
+                    ensuring you have access to your faxes from any location.
                   </li>
                 </ul>
                 <p className="font-weight-medium">06. Unified Communication</p>
                 <ul className="plus">
                   <li>
-                    Emparex Unified Communication includes video conferencing,
-                    chat, text, and presence.
+                    Benefit from video conferencing, chat, text, and presence
+                    with our Unified Communication platform.
                   </li>
                   <li>
-                    Our UC has the latest WebRtc tech — no need for software
-                    downloads or to create users.
+                    Utilize the latest WebRTC technology for seamless
+                    communication without software downloads or user creation.
                   </li>
                   <li>
-                    Your prospects or clients simply click a button to start a
-                    video conference with you.
-                  </li>
-                  <li>
-                    Quick and easy, you can effortlessly share your screen to do
-                    sales or product demos.
+                    Initiate video conferences with a simple click, share your
+                    screen effortlessly for sales or product demos.
                   </li>
                 </ul>
                 <p className="font-weight-medium">
-                  08. Send and Receive Texts with Your Emparex Business Number
+                  07. Text Messaging with Business Number
                 </p>
                 <ul className="plus">
                   <li>
-                    Send texts from your mobile phone to your business clients
-                    with your business Caller ID rather than your personal cell
-                    phone.
+                    Send texts from your mobile phone using your business Caller
+                    ID, maintaining a professional communication line.
                   </li>
                   <li>
-                    When a customer sends a text to your Emparex business
-                    number, it is forwarded to your cell phone.
+                    Receive customer texts sent to your business number directly
+                    to your mobile phone.
                   </li>
                   <li>
-                    You can have multiple numbers for texting while using the
-                    same mobile phone.
+                    Use multiple numbers for texting on a single mobile device.
                   </li>
                 </ul>
                 <p className="font-weight-medium">
-                  09. Listen or Read Voicemail on Your Mobile Phone
+                  08. Voicemail Transcription
                 </p>
                 <ul className="plus">
                   <li>
-                    Voicemails are transcribed and sent as a text or email.
-                    Voicemails are emailed as a voice file as well, that can be
-                    played on your mobile phone.
+                    Receive transcribed voicemails as text or email, with the
+                    option to listen to voice files on your mobile phone.
                   </li>
                 </ul>
-                <p className="font-weight-medium">10. Conference Calling</p>
+                <p className="font-weight-medium">09. Conference Calling</p>
                 <ul className="plus">
                   <li>
-                    Set up a conference call with up to 10 people at any time.
-                    You can use this to train your clients or conduct a sales
-                    meeting.
+                    Set up conference calls with up to 10 participants, ideal
+                    for client training or sales meetings.
                   </li>
                 </ul>
               </div>
@@ -285,16 +264,28 @@ const VirtualPage = () => {
           </div>
           <div className="row3">
             <Accordion
-              title="Unlimited Inbound and Outbound Calls Anywhere in Canada &raquo;"
-              content="Make and receive unlimited calls to and from any number in Canada."
+              title="What is a VoIP Phone System?"
+              content="A VoIP phone system uses the internet to make and receive calls, providing greater flexibility and often lower costs compared to traditional phone systems."
             />
             <Accordion
-              title="Cloud-Based Enterprise Phone System"
-              content="Experience the flexibility and power of a cloud-based phone system."
+              title="How does call forwarding work?"
+              content="Call forwarding allows you to redirect incoming calls to another phone number, such as your mobile or another office line, ensuring you never miss an important call."
             />
             <Accordion
-              title="Never Miss a Call — Quick and Easy Programming"
-              content="Program your system easily to never miss an important call."
+              title="Can I keep my existing phone number?"
+              content="Yes, most VoIP providers allow you to port your existing phone number to your new VoIP service, so you don't have to change your contact information."
+            />
+            <Accordion
+              title="What equipment do I need for VoIP?"
+              content="You'll need a reliable internet connection and VoIP-enabled phones. Many VoIP providers offer compatible hardware or software options to get you started."
+            />
+            <Accordion
+              title="Are VoIP calls secure?"
+              content="VoIP calls can be secure, especially when using encryption and other security measures. Make sure your provider offers these protections."
+            />
+            <Accordion
+              title="Can I use VoIP for international calls?"
+              content="Yes, VoIP often provides cheaper rates for international calls compared to traditional phone services. Check with your provider for specific rates and plans."
             />
           </div>
         </div>
