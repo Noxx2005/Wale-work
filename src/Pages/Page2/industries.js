@@ -1,83 +1,94 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../Navbar/Navbar";
 import ContactForm from "../Contact/ContactForm";
 import Footer from "../Footer/Footer";
-import "./industries.css"
+import Modal from 'react-modal';
+import "./industries.css";
 import pic01 from "../../Assets/finance.jpg";
 import pic02 from "../../Assets/insurance.jpg";
 import pic03 from "../../Assets/law.jpg";
 import pic04 from "../../Assets/manufacturing.jpg";
-import pic05 from "../../Assets/shipping.jpg"
-import pic06 from "../../Assets/tech.jpg" ;
+import pic05 from "../../Assets/shipping.jpg";
+import pic06 from "../../Assets/tech.jpg";
 
+const industriesData = [
+  { id: 1, name: "Shipping/Logistics", image: pic05, info: "Shipping/Logistics industry details..." },
+  { id: 2, name: "Information Technology", image: pic06, info: "Information Technology industry details..." },
+];
+
+const industriesData2 = [
+  { id: 5, name: "Manufacturing", image: pic02, info: "Manufacturing industry details..." },
+  { id: 6, name: "Insurance", image: pic04, info: "Insurance industry details..." },
+];
 
 const Industries = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [selectedIndustry, setSelectedIndustry] = useState(null);
+
+  const openModal = (industry) => {
+    setSelectedIndustry(industry);
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+    setSelectedIndustry(null);
+  };
+
   return (
     <div className="">
-      <Header/>
+      <Header />
       <div className="ContainerJ">
-        <div class="rowzr">
-          <div class="col-md-6">
-            <h1 class="subpage-title">
-              Industries for Business Phone Services
-            </h1>
-            <h4>
-              Emparex business phone service caters to the industry-specific needs of our business customers by incorporating the future-proof
-              features required to gain and maintain your competitive advantage.
-            </h4>
+        <div className="rowzr">
+          <div className="col-md-6">
+            <h1 className="subpage-title">Industries for Business Phone Services</h1>
+            <h4>Emparex business phone service caters to the industry-specific needs of our business customers by incorporating the future-proof features required to gain and maintain your competitive advantage.</h4>
           </div>
         </div>
       </div>
-      <div class="industries-list">
-                {/* <div class="rowz">
-                    <div class="col-sm-6 col-md-4">
-                        <a href="industry-realestate.html" class="btn-move"><img className="pic00" src="" alt="real estate"/></a>
-                        <a href="industry-realestate.html" class="btn-move">Real Estate <span>⟶</span></a>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <a href="industry-medical.html" class="btn-move"><img className="pic00" src="img className="pic00"/img className="pic00"_ind_medicine.jpg" alt="medicine"/></a>
-                        <a href="industry-medical.html" class="btn-move">Medicine <span>⟶</span></a>
-                    </div>
-
-                </div> */}
-                <div class="rowz">
-                    <div class="col-sm-6 col-md-4">
-                        <a href="industry-logistics.html" class="btn-move"><img className="pic00" src={pic05} alt="shipping"/></a>
-                        <a href="industry-logistics.html" class="btn-move">Shipping/Logistics <span className="arrow">⟶</span></a>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <a href="industry-tech.html" class="btn-move"><img className="pic00" src={pic06} alt="information technology"/></a>
-                        <a href="industry-tech.html" class="btn-move">Information Technology <span className="arrow">⟶</span></a>
-                    </div>
-
+      <div className="industries-list-container">
+        <div className="industries-list">
+          {industriesData.map((industry) => (
+            <div className="rowz" key={industry.id}>
+              <div className="col-sm-6 col-md-4">
+                <div onClick={() => openModal(industry)} className="btn-move">
+                  <img className="pic00" src={industry.image} alt={industry.name} />
                 </div>
-                <div class="rowz">
-
-                    <div class="col-sm-6 col-md-4">
-                        <a href="industry-finance.html" class="btn-move"><img className="pic00" src={pic01} alt="finance"/></a>
-                        <a href="industry-finance.html" class="btn-move">Finance &amp; Accounting <span className="arrow">⟶</span></a>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <a href="industry-law.html" class="btn-move"><img className="pic00" src={pic03} alt="law"/></a>
-                        <a href="industry-law.html" class="btn-move">Law &amp; Paralegal <span className="arrow">⟶</span></a>
-                    </div>
+                <div onClick={() => openModal(industry)} className="btn-move">
+                  {industry.name} <span className="arrow">⟶</span>
                 </div>
-
-                <div class="rowz">
-
-                    <div class="col-sm-6 col-md-4">
-                        <a href="industry-manufacturing.html" class="btn-move"><img className="pic00" src={pic02} alt="manufacturing"/></a>
-                        <a href="industry-manufacturing.html" class="btn-move">Manufacturing <span className="arrow">⟶</span></a>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <a href="industry-insurance.html" class="btn-move"><img className="pic00" src={pic04} alt="insurance"/></a>
-                        <a href="industry-insurance.html" class="btn-move">Insurance <span className="arrow">⟶</span></a>
-                    </div>
-
-                </div>
+              </div>
             </div>
+          ))}
+        </div>
+        <div className="industries-list">
+          {industriesData2.map((industry) => (
+            <div className="rowz" key={industry.id}>
+              <div className="col-sm-6 col-md-4">
+                <div onClick={() => openModal(industry)} className="btn-move">
+                  <img className="pic00" src={industry.image} alt={industry.name} />
+                </div>
+                <div onClick={() => openModal(industry)} className="btn-move">
+                  {industry.name} <span className="arrow">⟶</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
       <ContactForm />
       <Footer />
+
+      {selectedIndustry && (
+        <Modal isOpen={modalIsOpen} onRequestClose={closeModal} contentLabel="Industry Modal">
+          <div className="modal-content">
+            <h2>{selectedIndustry.name}</h2>
+            <img src={selectedIndustry.image} alt={selectedIndustry.name} />
+            <p>{selectedIndustry.info}</p>
+            <button onClick={closeModal}>Close</button>
+          </div>
+        </Modal>
+      )}
     </div>
   );
 };

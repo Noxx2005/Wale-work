@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeTop.css"; // Import the CSS file
-import pic1 from "../../Assets/drop-3698073_1920.jpg";
+import pic1 from "../../Assets/vecteezy_man-using-voip-headset-with-digital-tablet-computer-docking_5314322.jpg";
 
 const HomeTop = () => {
   return (

@@ -39,14 +39,14 @@ const Header = () => {
               <a href="/" className={`nav-link ${isScrolled ? "nav-link-scrolled" : ""}`}>
                 Home
               </a>
-              <a href="/virtual" className={`nav-link ${isScrolled ? "nav-link-scrolled" : ""}`}>
-                Virtual
+              <a href="/Industries" className={`nav-link ${isScrolled ? "nav-link-scrolled" : ""}`}>
+                Industries
               </a>
               <a href="/features" className={`nav-link ${isScrolled ? "nav-link-scrolled" : ""}`}>
-                Features
+               Our Service
               </a>
-              <a href="/industries" className={`nav-link ${isScrolled ? "nav-link-scrolled" : ""}`}>
-                Industries
+              <a href="/Virtual" className={`nav-link ${isScrolled ? "nav-link-scrolled" : ""}`}>
+               About Us
               </a>
             </nav>
             <div className="menu-icon" onClick={toggleMenu}>
