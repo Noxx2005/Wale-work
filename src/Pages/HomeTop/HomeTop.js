@@ -91,8 +91,8 @@ const HomeTop = () => {
       <div className="container">
         <div className="row1">
           <div className="col-md-6 b-right padding-3">
-            <h3 className="reviews-title">70+ Customer Reviews</h3>
-            <div className="reviewer-name">Roger D.C.</div>
+            <h3 className="reviews-title">5 Star Capabilities</h3>
+            <div className="reviewer-name"></div>
             <div className="review-star">
               <div className="star-img"></div>
               <div className="star-img"></div>
@@ -102,13 +102,13 @@ const HomeTop = () => {
               <div className="star-value">5.0</div>
             </div>
             <p className="quote">
-              “Excellent service provider. Their business telecom systems
+              “Excellent service provider. The business telecom systems
               are reliable and their service is cost effective, coupled with
-              superb, friendly customer support. Highly recommended!”
+              superb, friendly customer support”
             </p>
-            <a href="google-reviews.html" className="btn btn-hvr-dark">
+            {/* <a href="google-reviews.html" className="btn btn-hvr-dark">
               Read more reviews
-            </a>
+            </a> */}
           </div>
 
           <div className="col-md-6 padding-4">
