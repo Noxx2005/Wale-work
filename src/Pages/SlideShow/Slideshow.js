@@ -32,7 +32,7 @@ const Slideshow = () => {
                 Serving over 25,000 businesses, multiple industry awards, rated A+ by the BBB.
               </div>
               <a href="pricing.html" className="btn1zz btn-hvr-dar2k" tabindex="-1">Read more</a>
-              <a href="pricing.html" className="btn1zz btn-hvr-dar2k" data-target="page-bottom" tabindex="-1">View demo</a>
+              <a href="pricing.html" className="btn1zz btn-hvr-dar2k" data-target="page-bottom" tabindex="-1">Request Consultation</a>
             </div>
           </div>
         </div>
