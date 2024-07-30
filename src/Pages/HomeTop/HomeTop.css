@@ -5,8 +5,11 @@
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px;
-    /* border-bottom: .5px black solid; */
   }
+  .home-top{
+    display: flex;
+
+flex-direction: column;  }
   
   .table {
     width: 100%;

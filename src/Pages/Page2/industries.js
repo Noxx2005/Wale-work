@@ -58,7 +58,7 @@ const Industries = () => {
       <Header />
       <div className="ContainerJ">
         <div className="rowzr">
-          <div className="col-md-6">
+          <div className="colmd-6">
             <h1 className="subpage-title">
               Industries for Business Phone Services
             </h1>

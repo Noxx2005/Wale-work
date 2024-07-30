@@ -106,9 +106,6 @@ const HomeTop = () => {
               are reliable and our service is cost effective, coupled with
               superb, friendly customer support”
             </p>
-            {/* <a href="google-reviews.html" className="btn btn-hvr-dark">
-              Read more reviews
-            </a> */}
           </div>
 
           <div className="col-md-6 padding-4">
