@@ -62,7 +62,7 @@ const Industries = () => {
             <h1 className="subpage-title">
               Industries for Business Phone Services
             </h1>
-            <h4>
+            <h4 className="header-text">
               Emparex business phone service caters to the industry-specific
               needs of our business customers by incorporating the future-proof
               features required to gain and maintain your competitive advantage.
@@ -74,7 +74,7 @@ const Industries = () => {
         <div className="industries-list">
           {industriesData.map((industry) => (
             <div className="rowz" key={industry.id}>
-              <div className="col-sm-6 col-md-4">
+              <div className="colmd-4">
                 <div onClick={() => openModal(industry)} className="btn-move">
                   <img
                     className="pic00"
@@ -92,7 +92,7 @@ const Industries = () => {
         <div className="industries-list">
           {industriesData2.map((industry) => (
             <div className="rowz" key={industry.id}>
-              <div className="col-sm-6 col-md-4">
+              <div className="colmd-4">
                 <div onClick={() => openModal(industry)} className="btn-move">
                   <img
                     className="pic00"
@@ -116,6 +116,7 @@ const Industries = () => {
           isOpen={modalIsOpen}
           onRequestClose={closeModal}
           contentLabel="Industry Modal"
+          className="modal-head"
         >
           <div className="modal-content">
             <h2>{selectedIndustry.name}</h2>
