@@ -52,7 +52,7 @@ const VirtualPage = () => {
           </div>
 
           <div className="row34">
-            <div className="col-sm-12">
+            <div className="colsm-12">
               {/* <a href="vpbx-signup.html" className="btn2 btn-start-trial mb-5">
                 Start 30-day free trial
               </a> */}
