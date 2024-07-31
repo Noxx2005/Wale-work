@@ -3,7 +3,7 @@ import Header from "../Navbar/Navbar";
 import ContactForm from "../Contact/ContactForm";
 import Footer from "../Footer/Footer";
 import "./features.css";
-import pic1 from "../../Assets/features viop.png";
+import pic1 from "../../Assets/gettyimages-1316372350-612x612.jpg";
 import { faCaretDown, faCaretUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -45,16 +45,10 @@ const FeaturePage = () => {
             </div>
             <div className="col-lg-7 col-sm-12 col-xl-6 top-text">
               <h1 className="subpage-title">
-                Robust VOIP Business Phone System Features
+                Comprehensive Business Solutions and Features
               </h1>
               <h4>
-                Emparex's business phone service is equipped with cutting-edge
-                features designed to provide your business with unparalleled
-                flexibility. Stay ahead of your competitors with our advanced
-                multi-line phone system, ensuring you never miss an important
-                call. Whether you’re managing a growing team or handling high
-                call volumes, our solution keeps your communication seamless and
-                efficient.
+                Emparex provides a range of business solutions including advanced VoIP features, software development, and IT solutions. Our offerings ensure that your communication is seamless, your software needs are met, and your IT infrastructure is robust. Stay ahead of the competition with our state-of-the-art technology and services.
               </h4>
             </div>
           </div>
@@ -96,6 +90,14 @@ const FeaturePage = () => {
         <Accordion
           title="Voicemail Transcription"
           content="Receive voicemails as text messages or emails with our voicemail transcription feature, making it easier to manage and respond to messages promptly."
+        />
+        <Accordion
+          title="Software Development Solutions"
+          content="Our software development services include custom software design, development, and integration to meet your specific business needs. From building applications to system integrations, we provide tailored solutions to drive your business forward."
+        />
+        <Accordion
+          title="Comprehensive IT Solutions"
+          content="We offer a full range of IT solutions including infrastructure management, cybersecurity, and cloud services. Our expert team ensures that your IT environment is secure, efficient, and aligned with your business objectives."
         />
       </div>
 

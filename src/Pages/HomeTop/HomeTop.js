@@ -11,36 +11,37 @@ const HomeTop = () => {
         </div> */}
         <div className="features-container">
           <div className="feature-item">
-            <h2 className="text2">Increased Productivity</h2>
+            <h2 className="text2">Enhanced Productivity</h2>
             <ul className="plus">
               <li>No more missed calls</li>
               <li>Mobile enabled</li>
-              <li>Over 40 features</li>
+              <li>Custom software solutions</li>
             </ul>
           </div>
           <div className="feature-item">
-            <h2 className="text2">Huge Cost Savings</h2>
+            <h2 className="text2">Significant Cost Savings</h2>
             <ul className="plus">
               <li>Slash costs by 40%</li>
               <li>No upfront costs</li>
+              <li>Efficient IT solutions</li>
             </ul>
           </div>
         </div>
         <div className="features-container">
           <div className="feature-item">
-            <h2 className="text2">Guaranteed Reliability</h2>
+            <h2 className="text2">Reliable Technology</h2>
             <ul className="plus">
               <li>99.999% uptime</li>
               <li>HD call quality</li>
-              <li>4.3 star user reviews</li>
+              <li>Top-rated software development</li>
             </ul>
           </div>
           <div className="feature-item">
-            <h2 className="text2">Seamless Switching</h2>
+            <h2 className="text2">Seamless Integration</h2>
             <ul className="plus">
               <li>On-site evaluation</li>
               <li>In-person installation</li>
-              <li>Own account manager</li>
+              <li>Dedicated IT support</li>
             </ul>
           </div>
         </div>
@@ -59,9 +60,7 @@ const HomeTop = () => {
               <div className="star-value">5.0</div>
             </div>
             <p className="quote">
-              “We Provide Excellent service. Our business telecom systems are
-              reliable and our service is cost effective, coupled with superb,
-              friendly customer support”
+              “We Provide Excellent service in business telecom systems, software development, and IT solutions. Our systems are reliable, cost-effective, and coupled with superb, friendly customer support.”
             </p>
           </div>
 

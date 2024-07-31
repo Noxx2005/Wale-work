@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import img1 from "../../Assets/drop-3698073_1920 .jpg";
+import img1 from "../../Assets/pexels-fauxels-3182773.jpg";
 import img2 from "../../Assets/futuristic-smart-city-with-5g-global-network-technology.jpg";
 import img3 from "../../Assets/vecteezy_man-using-voip-headset-with-digital-tablet-computer-docking_5314322.jpg";
 import './SlideShow.css'; 

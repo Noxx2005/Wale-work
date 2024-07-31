@@ -41,7 +41,7 @@ const VirtualPage = () => {
           <div className="row34">
             <div className="col-xl-12 mt-5">
               <h1 className="color-orange">
-                Best Virtual Business Phone Systems &amp; Services
+                Best Virtual Business Phone Systems &amp; IT Solutions
               </h1>
               <h2>Packed with Services and Features You Can Use</h2>
               <p>
@@ -59,9 +59,10 @@ const VirtualPage = () => {
               <p>
                 An affordable system built for small businesses. Emparex offers
                 a special Virtual phone system package that will cater to all
-                your communication needs. If you want a custom package, call our
-                representatives today and they will set you up with the
-                appropriate virtual call system package.
+                your communication needs. In addition to VoIP services, we provide
+                comprehensive IT and software development solutions. If you want a
+                custom package or IT support, call our representatives today, and
+                they will set you up with the appropriate system or solution.
               </p>
             </div>
           </div>
@@ -76,7 +77,7 @@ const VirtualPage = () => {
               />
             </div>
             <div>
-              <h2 className="col23">Modern VoIP Service for Business</h2>
+              <h2 className="col23">Modern VoIP Service & IT Solutions for Business</h2>
             </div>
           </div>
 
@@ -94,9 +95,12 @@ const VirtualPage = () => {
                 Emparex. Our virtual telephone system streamlines your
                 communication needs by integrating phone calls, faxes,
                 voicemails, video conferences, and texts into one unified
-                system. Whether you are a small startup, a growing medium-sized
+                system. In addition, our software development and IT solutions
+                help ensure your business operations run smoothly and efficiently.
+                Whether you are a small startup, a growing medium-sized
                 business, or a large corporation, Emparex provides the tools and
-                support to keep your communications seamless and efficient.
+                support to keep your communications and IT infrastructure
+                seamless and effective.
               </p>
 
               <a href="/features" className="btn2">
@@ -121,7 +125,7 @@ const VirtualPage = () => {
             <div className="row34">
               <div className="col-xl-12">
                 <h2 className="color-orange mb-4">
-                  Virtual Business Phone System Features &amp; Benefits
+                  Virtual Business Phone System Features &amp; IT Solutions
                 </h2>
               </div>
             </div>
@@ -212,35 +216,42 @@ const VirtualPage = () => {
                   </li>
                 </ul>
                 <p className="font-weight-medium">
-                  07. Text Messaging with Business Number
+                  07. Custom Software Development
                 </p>
                 <ul className="plus">
                   <li>
-                    Send texts from your mobile phone using your business Caller
-                    ID, maintaining a professional communication line.
+                    Get tailored software solutions designed to meet your
+                    specific business needs, from web applications to mobile apps.
                   </li>
                   <li>
-                    Receive customer texts sent to your business number directly
-                    to your mobile phone.
-                  </li>
-                  <li>
-                    Use multiple numbers for texting on a single mobile device.
+                    Our development team works with you to create custom software
+                    that enhances your business processes and improves efficiency.
                   </li>
                 </ul>
                 <p className="font-weight-medium">
-                  08. Voicemail Transcription
+                  08. IT Support & Consulting
                 </p>
                 <ul className="plus">
                   <li>
-                    Receive transcribed voicemails as text or email, with the
-                    option to listen to voice files on your mobile phone.
+                    Benefit from expert IT support to ensure your systems are
+                    running smoothly and securely.
+                  </li>
+                  <li>
+                    Get consulting services to optimize your IT infrastructure
+                    and make informed technology decisions for your business.
                   </li>
                 </ul>
-                <p className="font-weight-medium">09. Conference Calling</p>
+                <p className="font-weight-medium">
+                  09. Scalable Solutions
+                </p>
                 <ul className="plus">
                   <li>
-                    Set up conference calls with up to 10 participants, ideal
-                    for client training or sales meetings.
+                    Our solutions scale with your business, allowing you to add
+                    features and services as needed without disruption.
+                  </li>
+                  <li>
+                    Whether you’re growing or evolving, our systems adapt to your
+                    changing needs.
                   </li>
                 </ul>
               </div>
@@ -268,8 +279,16 @@ const VirtualPage = () => {
               content="A VoIP phone system uses the internet to make and receive calls, providing greater flexibility and often lower costs compared to traditional phone systems."
             />
             <Accordion
+              title="What is custom software development?"
+              content="Custom software development involves creating tailored software solutions that meet the specific needs of a business, from web and mobile apps to custom systems."
+            />
+            <Accordion
               title="How does call forwarding work?"
               content="Call forwarding allows you to redirect incoming calls to another phone number, such as your mobile or another office line, ensuring you never miss an important call."
+            />
+            <Accordion
+              title="What IT support services are available?"
+              content="Our IT support services include system maintenance, troubleshooting, and cybersecurity measures to keep your IT infrastructure running smoothly and securely."
             />
             <Accordion
               title="Can I keep my existing phone number?"

@@ -14,13 +14,13 @@ const industriesData = [
     id: 1,
     name: "Logistics",
     image: pic05,
-    info: "For the Shipping and Logistics industry, our VoIP solutions offer streamlined communication channels, including real-time tracking updates and efficient call management. Enhance your operational efficiency with features like automated call routing, instant voice and video communication, and integrated shipment notifications.",
+    info: "For the Shipping and Logistics industry, our solutions provide streamlined communication channels, including real-time tracking updates, efficient call management, and integrated shipment notifications. We also offer custom software solutions to enhance logistics operations and improve efficiency.",
   },
   {
     id: 2,
     name: "Information Technology",
     image: pic06,
-    info: "In the Information Technology sector, our VoIP services provide robust and scalable communication tools. Benefit from high-quality voice and video calls, secure data transmission, and seamless integration with your existing IT infrastructure. Our solutions support remote work and collaboration with advanced features such as cloud-based conferencing and unified messaging.",
+    info: "In the Information Technology sector, we offer robust and scalable communication tools, including high-quality voice and video calls, secure data transmission, and seamless integration with IT infrastructure. Our solutions support remote work and collaboration with advanced features such as cloud-based conferencing and unified messaging.",
   },
 ];
 
@@ -29,13 +29,13 @@ const industriesData2 = [
     id: 5,
     name: "Manufacturing",
     image: pic02,
-    info: "Our VoIP solutions are ideal for the Manufacturing industry, offering reliable and scalable communication systems. Ensure smooth coordination between production lines and supply chains with features like real-time communication, call analytics, and integrated inventory management. Enhance operational efficiency and reduce downtime with our advanced telephony solutions.",
+    info: "Our solutions for the Manufacturing industry include reliable communication systems and real-time coordination between production lines. We offer integrated inventory management and advanced telephony solutions to enhance operational efficiency and reduce downtime.",
   },
   {
     id: 6,
     name: "Insurance",
     image: pic04,
-    info: "For the Insurance industry, our VoIP services provide a comprehensive communication platform that enhances client interactions and improves operational efficiency. Features include automated claim processing, secure call handling, and integrated customer relationship management (CRM) tools. Streamline your communication and improve customer service with our reliable and feature-rich solutions.",
+    info: "For the Insurance industry, we provide a comprehensive communication platform that enhances client interactions and operational efficiency. Our features include automated claim processing, secure call handling, and integrated CRM tools. We also offer IT solutions to streamline operations and improve customer service.",
   },
 ];
 
@@ -60,12 +60,10 @@ const Industries = () => {
         <div className="rowzr">
           <div className="colmd-6">
             <h1 className="subpage-title">
-              Industries for Business Phone Services
+              Industries for Business Phone Services and More
             </h1>
             <h4 className="header-text">
-              Emparex business phone service caters to the industry-specific
-              needs of our business customers by incorporating the future-proof
-              features required to gain and maintain your competitive advantage.
+              Emparex offers business solutions tailored to industry-specific needs, including business phone services, software development, and IT solutions. Our advanced features help you gain and maintain a competitive edge.
             </h4>
           </div>
         </div>
@@ -125,7 +123,7 @@ const Industries = () => {
             <p className="h21">{selectedIndustry.name}</p>
             <img src={selectedIndustry.image} alt={selectedIndustry.name} />
             <p>{selectedIndustry.info}</p>
-            {/* <button onClick={closeModal}>Close</button> class */}
+            {/* <button onClick={closeModal}>Close</button> */}
           </div>
         </Modal>
       )}
