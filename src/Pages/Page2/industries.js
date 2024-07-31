@@ -12,7 +12,7 @@ import pic06 from "../../Assets/pexels-divinetechygirl-1181271.jpg";
 const industriesData = [
   {
     id: 1,
-    name: "Shipping/Logistics",
+    name: "Logistics",
     image: pic05,
     info: "For the Shipping and Logistics industry, our VoIP solutions offer streamlined communication channels, including real-time tracking updates and efficient call management. Enhance your operational efficiency with features like automated call routing, instant voice and video communication, and integrated shipment notifications.",
   },
@@ -119,10 +119,13 @@ const Industries = () => {
           className="modal-head"
         >
           <div className="modal-content">
-            <h2>{selectedIndustry.name}</h2>
+            <button className="close-button" onClick={closeModal}>
+              &times;
+            </button>
+            <p className="h21">{selectedIndustry.name}</p>
             <img src={selectedIndustry.image} alt={selectedIndustry.name} />
             <p>{selectedIndustry.info}</p>
-            <button onClick={closeModal}>Close</button>
+            {/* <button onClick={closeModal}>Close</button> class */}
           </div>
         </Modal>
       )}

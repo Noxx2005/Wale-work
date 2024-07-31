@@ -56,33 +56,60 @@ h4 {
 .industries-list {
   width: 100%;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 1020px) {
   .industries-list-container {
-    width: 80%;
+    /* width: 80%; */
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .colmd-4 {
     /* margin-left: 190px; */
-    max-width: 80%;
+    max-width: 90%;
+  }
+  .rowz {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left : 5px;
+    /* margin-bottom: 20px; */
+  }
+  .pic00 {
+    /* border: #393e46 1px solid; */
+    /* width: 100%; */
+    height: auto;
+    max-width: 340px;
   }
 }
 
+@media (min-width: 1021px) and (max-width: 1270px){
 .rowz {
-  justify-content: center;
+  /* justify-content: center; */
   display: flex;
   flex-wrap: wrap;
-  /* margin-right: -15px; */
+  margin-left: 70px;
   margin-bottom: 20px;
 }
-
 .pic00 {
-  border: #393e46 1px solid;
-  /* width: 100%; */
   height: auto;
   max-width: 380px;
 }
+}
+
+@media (min-width: 1271px){
+  .rowz {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 250px;
+    margin-bottom: 20px;
+  }
+  .pic00 {
+    height: auto;
+    max-width: 380px;
+  }
+  }
 
 .arrow {
   color: #f9b500;
@@ -92,20 +119,20 @@ h4 {
 }
 
 .modal-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  right: auto;
-  bottom: auto;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  background: #ffffff;
-  padding: 30px 30px;
-  border-radius: 4px;
-  max-width: 500px;
-  height: 100vh;
-  width: 90%;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    padding: 30px 30px;
+    border-radius: 4px;
+    max-width: 500px;
+    height: 100vh;
+    width: 90%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .modal-content img {
@@ -114,10 +141,14 @@ h4 {
   margin: auto;
   margin-bottom: 5px;
 }
-.modal-content h2 {
+.h21 {
   /* text-align: center; */
   max-width: 90%;
-  
+  font-size: 2.4375rem;
+    line-height: 50px;
+    font-weight: 500;
+    color: #393E46;
+    margin-top: 50px;
 }
 .modal-content p {
   /* text-align: center; */
@@ -127,15 +158,18 @@ h4 {
 
 }
 
-.modal-content button {
-  background-color: #007bff;
-  color: white;
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
   border: none;
-  padding: 10px 20px;
+  font-size: 24px;
   cursor: pointer;
-  border-radius: 4px;
+  color: #000;
 }
 
-.modal-content button:hover {
-  background-color: #0056b3;
+.close-button:hover {
+  color: red;
 }

@@ -1,6 +1,7 @@
 @media (max-width: 1199.98px) {
     main[role="main"] {
-        padding-top: 98px;
+        /* padding-top: 98px; */
+        padding: 10px;
     }
 }
 
@@ -34,12 +35,13 @@
     padding-bottom: 38px;
    
 }
-
+@media (min-width: 992px) {
 .row34 {
     display: flex;
     flex-wrap: inherit;
     margin-right: -15px;
     margin-left: -15px;
+}
 }
 .row3 {
     margin-right: -15px;
