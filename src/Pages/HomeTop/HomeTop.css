@@ -119,23 +119,25 @@
   border: 0.5px #f8b500 solid;
 }
 ul.plus {
-  list-style: none; /* Remove default dots */
-  padding-left: 0; /* Remove default padding */
+  list-style: none;
+  padding-left: 0; 
+}
+.text2{
+  color: #f8b500;
 }
 
 ul.plus li {
-  /* position: relative; Position relative for the ::before pseudo-element */
-  padding-left: 30px; /* Space for the plus sign */
+  padding-left: 30px; 
 }
 
 ul.plus li::before {
-  content: '+'; /* Add plus sign */
-  color: #f8b500; /* Golden color */
-  position: absolute; /* Position it absolutely within the list item */
-  left: 0; /* Align with the left edge */
-  top: 50%; /* Center vertically */
-  transform: translateY(-50%); /* Adjust for vertical centering */
-  font-size: 1.5rem; /* Adjust size as needed */
+  content: '+'; 
+  color: #f8b500; 
+  position: absolute; 
+  left: 0;
+  top: 50%; 
+  transform: translateY(-50%); 
+  font-size: 1.5rem; 
 }
 /* Media Queries */
 
