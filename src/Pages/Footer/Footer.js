@@ -13,17 +13,15 @@ const Footer = () => {
         </div>
         <div className="footer-section phone-numbers">
           <h4>Phone numbers</h4>
-          <p>Toll Free <span>1-888-683-5226</span></p>
-          <p>Platform Services <span>1-647-258-4100</span></p>
-          <p>International Callers <span>1-416-847-9111</span></p>
-          <p>Fax <span>1-905-804-9888</span></p>
+          <p>Toll Free<br/>  <span> 1888-606-0028</span></p>
+          <p>Platform Services<br/>  <span>905-606-0028</span></p>
         </div>
         <div className="footer-section about">
           <h4>About</h4>
           <p>We are proud of the fact that our entire business was a bootstrapped startup that has evolved into an A+ rated multinational enterprise.</p>
         </div>
         <div className="footer-section links">
-          <a href="#">Vendors & Devices →</a>
+          <a href="#" id='first-link'>Vendors & Devices →</a>
           <a href="#">Privacy Policy →</a>
           <a href="#">Fax →</a>
           <a href="#">Transfer Instructions →</a>
@@ -34,7 +32,7 @@ const Footer = () => {
           <a href="#">Contact Us →</a>
         </div>
         <div className="footer-section social-media">
-          <a href="#" className="social-icon facebook">Facebook</a>
+          <a href="#" className="social-icon facebook" id='facebook'>Facebook</a>
           <a href="#" className="social-icon twitter">Twitter</a>
           <a href="#" className="social-icon linkedin">LinkedIn</a>
         </div>
