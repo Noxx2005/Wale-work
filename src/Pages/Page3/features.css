@@ -26,6 +26,7 @@
   display: flex; /* Enable flexbox layout */
   justify-content: center; /* Center content horizontally */
   align-items: center;
+  padding-right: 1rem;
   max-width: 100%;
   margin: 0 0 30px;
 }
