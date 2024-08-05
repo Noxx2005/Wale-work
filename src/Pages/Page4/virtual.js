@@ -133,7 +133,7 @@ const VirtualPage = () => {
             <div className="row34">
               <div className="col-xl-12">
                 <p className="font-weight-medium">01. Toll-Free Number</p>
-                <ul className="plus">
+                <ul className="plus3">
                   <li>
                     Enhance your business image with a virtual toll-free number,
                     allowing clients to contact you free of charge from
@@ -146,7 +146,7 @@ const VirtualPage = () => {
                   </li>
                 </ul>
                 <p className="font-weight-medium">02. Local Number</p>
-                <ul className="plus">
+                <ul className="plus3">
                   <li>
                     Establish a local presence in any target city with a local
                     number, driving sales through geographically targeted
@@ -158,7 +158,7 @@ const VirtualPage = () => {
                   </li>
                 </ul>
                 <p className="font-weight-medium">03. Never Miss a Call</p>
-                <ul className="plus">
+                <ul className="plus3">
                   <li>
                     Forward calls from your business phone system to your
                     mobile, landline, or VoIP seamlessly.
@@ -180,7 +180,7 @@ const VirtualPage = () => {
                 <p className="font-weight-medium">
                   04. Customized Main Greeting
                 </p>
-                <ul className="plus">
+                <ul className="plus3">
                   <li>
                     Use a custom main greeting to inform callers of their
                     options, such as accessing information or reaching specific
@@ -189,7 +189,7 @@ const VirtualPage = () => {
                   </li>
                 </ul>
                 <p className="font-weight-medium">05. Internet Fax</p>
-                <ul className="plus">
+                <ul className="plus3">
                   <li>
                     Receive faxes directly to your email as PDF files without
                     the need for a fax machine, saving costs on separate fax
@@ -201,7 +201,7 @@ const VirtualPage = () => {
                   </li>
                 </ul>
                 <p className="font-weight-medium">06. Unified Communication</p>
-                <ul className="plus">
+                <ul className="plus3">
                   <li>
                     Benefit from video conferencing, chat, text, and presence
                     with our Unified Communication platform.
@@ -218,7 +218,7 @@ const VirtualPage = () => {
                 <p className="font-weight-medium">
                   07. Custom Software Development
                 </p>
-                <ul className="plus">
+                <ul className="plus3">
                   <li>
                     Get tailored software solutions designed to meet your
                     specific business needs, from web applications to mobile apps.
@@ -231,7 +231,7 @@ const VirtualPage = () => {
                 <p className="font-weight-medium">
                   08. IT Support & Consulting
                 </p>
-                <ul className="plus">
+                <ul className="plus3">
                   <li>
                     Benefit from expert IT support to ensure your systems are
                     running smoothly and securely.
@@ -244,7 +244,7 @@ const VirtualPage = () => {
                 <p className="font-weight-medium">
                   09. Scalable Solutions
                 </p>
-                <ul className="plus">
+                <ul className="plus3">
                   <li>
                     Our solutions scale with your business, allowing you to add
                     features and services as needed without disruption.
