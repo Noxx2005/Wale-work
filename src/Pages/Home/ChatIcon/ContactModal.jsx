@@ -4,7 +4,7 @@ import './ContactModal.css';
 const ContactModal = ({ isOpen, onClose, onSubmit }) => {
   const [email, setEmail] = useState('');
   const [question, setQuestion] = useState('');
-  const [message, setMessage] = useState('');  // New state for the message box
+  const [message, setMessage] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -13,6 +13,11 @@ const ContactModal = ({ isOpen, onClose, onSubmit }) => {
     window.location.href = mailtoLink;
 
     onSubmit(email, question);
+    
+    setEmail('');
+    setQuestion('');
+    setMessage('');
+    
     onClose();
   };
 
