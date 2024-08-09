@@ -3,11 +3,10 @@
   border-top: 0.5px black solid;
   text-align: center;
   padding: 2rem;
-  width: 130px;
 }
 
 .titlew {
-  font-size: 2em;
+  font-size: 2rem;
   margin-bottom: 2rem;
   color: #393E46;
 }
@@ -37,7 +36,7 @@
   outline: none;
   border: none;
   border-bottom: 1px solid black;
-  font-size: 0.6em;
+  font-size: 1rem;
   text-align: left;
 }
 
@@ -60,7 +59,7 @@
   display: inline-block;
   padding: 10px 20px;
   margin: 2rem 0;
-  font-size: 0.7em;
+  font-size: 1rem;
   color: white;
   width: 200px;
   text-decoration: none;
@@ -86,7 +85,7 @@
 /* Mobile: below 769px */
 @media (max-width: 768px) {
   .titlew {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 1.5rem;
   }
 
@@ -107,7 +106,7 @@
   }
 
   .note {
-    font-size: 0.65em;
+    font-size: 0.75rem;
     margin-top: 1rem;
   }
 }
@@ -115,7 +114,7 @@
 /* Tablet: 770px to 1024px */
 @media (min-width: 769px) and (max-width: 1024px) {
   .titlew {
-    font-size: 1.75em;
+    font-size: 1.75rem;
     margin-bottom: 1.75rem;
   }
 
