@@ -77,7 +77,7 @@ const VirtualPage = () => {
               />
             </div>
             <div>
-              <h2 className="col23">Modern VoIP Service & IT Solutions for Business</h2>
+              <h2 className="color-orange">Modern VoIP Service & IT Solutions for Business</h2>
             </div>
           </div>
 

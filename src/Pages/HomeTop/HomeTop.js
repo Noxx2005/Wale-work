@@ -47,7 +47,7 @@ const HomeTop = () => {
         </div>
       </div>
 
-      <div className="Container2e">
+      <div className="Container2e3">
         <div className="row1">
           <div className="colmd-6 bright pad3">
             <h2 className="reviews-title">5 Star Capabilities</h2>

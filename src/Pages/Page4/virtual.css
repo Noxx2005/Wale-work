@@ -24,7 +24,7 @@
     .color-orange {
         color: #F8B500;
         padding-top: 50px;
-        font-size: 40px;
+        font-size: 35px;
         margin-top: 50px;
     }
 }
@@ -69,8 +69,9 @@
 .color-orange {
     color: #F8B500;
     padding-top: 50px;
-    font-size: 50px;
+    font-size: 35px;
     margin-top: 50px;
+    width: 100%;
 }
 .color-orange2 {
     color: #F8B500;
@@ -88,7 +89,7 @@
     color: #F8B500;
 }
 h2 {
-    font-size: 2.4375rem;
+    /* font-size: 2.4375rem; */
     line-height: 50px; 
     font-weight: 500;
     color: #393E46;
@@ -105,7 +106,7 @@ h2 {
 p {
     margin-top: 0;
     margin-bottom: 1rem;
-    font-size: 20px;
+    /* font-size: 20px; */
     line-height: 30px;
 }
 

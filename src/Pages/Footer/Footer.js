@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 1997-2024 Emparex™ Communications Inc. All rights reserved.</p>
+        <p>©2024 Emparex</p>
       </div>
     </footer>
   );
