@@ -20,7 +20,7 @@ const Footer = () => {
           <h4>About</h4>
           <p>We are proud of the fact that our entire business was a bootstrapped startup that has evolved into an A+ rated multinational enterprise.</p>
         </div>
-        <div className="footer-section links">
+        {/* <div className="footer-section links">
           <a href="#" id='first-link'>Vendors & Devices →</a>
           <a href="#">Privacy Policy →</a>
           <a href="#">Fax →</a>
@@ -30,7 +30,7 @@ const Footer = () => {
           <a href="#">Sitemap →</a>
           <a href="#">Terms & Conditions →</a>
           <a href="#">Contact Us →</a>
-        </div>
+        </div> */}
         <div className="footer-section social-media">
           <a href="#" className="social-icon facebook" id='facebook'>Facebook</a>
           <a href="#" className="social-icon twitter">Twitter</a>
