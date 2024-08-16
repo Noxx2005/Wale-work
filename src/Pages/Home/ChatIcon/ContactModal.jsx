@@ -57,7 +57,7 @@ const ContactModal = ({ isOpen, onClose, onSubmit }) => {
               required
             ></textarea>
           </div>
-          <button type="submit">Submit</button>
+          <button id='submit' type="submit">Submit</button>
         </form>
       </div>
     </div>

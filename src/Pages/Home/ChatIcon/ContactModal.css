@@ -53,12 +53,16 @@
       box-sizing: border-box;
     }
     
-    button {
+    #submit {
       background-color:#F8B500;
       color: white;
-      padding: 10px 15px;
       border: none;
       cursor: pointer;
+      padding: 10px 17px;
+      margin: 20px auto;
+      position: relative;
+      left: 35%;
+      border-radius: 20px;
     }
     
     button:hover {
