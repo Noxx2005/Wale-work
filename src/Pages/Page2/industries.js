@@ -18,7 +18,7 @@ const industriesData = [
   },
   {
     id: 2,
-    name: "Information Technology",
+    name: "IT",
     image: pic06,
     info: "In the Information Technology sector, we offer robust and scalable communication tools, including high-quality voice and video calls, secure data transmission, and seamless integration with IT infrastructure. Our solutions support remote work and collaboration with advanced features such as cloud-based conferencing and unified messaging.",
   },
