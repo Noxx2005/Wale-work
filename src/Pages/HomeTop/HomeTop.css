@@ -62,6 +62,11 @@
   object-fit: cover;
   margin-left: 30px;
 }
+.colmd-6 img:hover{
+  box-shadow: 0 0 30px #f8b500,
+  0 0 50px #dee2e6,
+  0 0 10px #f8b500;
+  }
 
 .bright {
   border-right: 1px solid #dee2e6;
@@ -173,6 +178,7 @@ ul.plus li::before {
 
   .full-image {
     margin-left: 0;
+    border: 1px solid #f8b500;
   }
 
   .btn {
