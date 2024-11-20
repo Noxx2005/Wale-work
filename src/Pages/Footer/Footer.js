@@ -9,6 +9,7 @@ const Footer = () => {
           <h4>Address</h4>
           <p>2800 Skymark Ave, Suite 402</p>
           <p>Mississauga, Ontario, L4W 5A6</p>
+          <p>855 Matheson Blvd East,  Mississauga, Ontario L4W 4L6</p>
           <p>Canada</p>
         </div>
         <div className="footer-section phone-numbers">

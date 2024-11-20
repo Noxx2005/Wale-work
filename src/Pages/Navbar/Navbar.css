@@ -53,6 +53,43 @@
 .nav-open {
   display: flex;
 }
+/* Dropdown for "Solutions" */
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Align below the parent element */
+  left: -1010%;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 10px 15px;
+  z-index: 10;
+  width: 1200px;
+}
+
+.dropdown-item {
+  font-size: 0.9rem;
+  display:inline-block;
+  width: 150px;
+  padding: 8px 12px;
+  color: #393e46;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  cursor: pointer;
+  /* border-bottom: 1px solid #f0f0f0; */
+  padding-bottom: none;
+}
+
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.dropdown-item:hover {
+  background-color: #f8b500;
+  color: white;
+}
+
+.solutions-link {
+  position: relative;
+}
 
 .nav-link {
   font-size: 1.125rem;
@@ -63,15 +100,31 @@
 }
 
 .nav-link-scrolled {
-  color: #393E46; /* text-gray-800 */
+  color: #393E46; 
 }
 
 .nav-link-scrolled:hover {
-  color: #F8B500; /* text-gray-600 */
+  color: #F8B500; 
 }
 
 .nav-link:hover {
-  color: #F8B500; /* text-gray-200 */
+  color: #F8B500; 
+}
+.inner-box-border{
+  display: inline-flex;
+}
+.column{
+  padding:3px 1px;
+  border-right: #F8B500 2px solid;
+  color: #393E46;
+}
+li{
+  list-style: none;
+  padding: 7px;
+  padding-right: 18px;
+}
+li:hover{
+color: #F8B500;
 }
 
 @media (min-width: 1024px) {
@@ -102,7 +155,39 @@
     display: none;
   }
 }
+@media (max-width: 768px) {
+  .nav{
+    overflow-y: auto; /* Enable vertical scrolling */ 
+    max-height: calc(100vh - 80px); /* Set the maximum height to the viewport height minus the header height */
+  }
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    width: 100%;
+    display: none;
+  }
 
+  .solutions-link:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inner-box-border {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column {
+    border-right: none;
+    border-bottom: #F8B500 2px solid;
+  }
+
+  .dropdown-item {
+    width: 100%;
+  }
+}
 .top-bar {
   display: flex;
   justify-content: space-between;
