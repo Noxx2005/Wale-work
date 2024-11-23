@@ -48,7 +48,12 @@ const FeaturePage = () => {
                 Comprehensive Business Solutions and Features
               </h1>
               <h4>
-                Emparex provides a range of business solutions including advanced VoIP features, software development, and IT solutions. Our offerings ensure that your communication is seamless, your software needs are met, and your IT infrastructure is robust. Stay ahead of the competition with our state-of-the-art technology and services.
+                Emparex provides a range of business solutions including
+                advanced VoIP features, software development, and IT solutions.
+                Our offerings ensure that your communication is seamless, your
+                software needs are met, and your IT infrastructure is robust.
+                Stay ahead of the competition with our state-of-the-art
+                technology and services.
               </h4>
             </div>
           </div>
@@ -83,6 +88,27 @@ const FeaturePage = () => {
           title="Robust Security and Reliability"
           content="Benefit from our robust security measures that protect your communication from eavesdropping and ensure reliable service with minimal downtime."
         />
+        <Accordion
+          title="Software Development"
+          content="Leverage our expertise in software development to create custom, scalable solutions tailored to your specific business needs. From web applications to enterprise software, we deliver quality and innovation."
+        />
+        <Accordion
+          title="Data Hosting"
+          content="Experience secure and efficient data hosting services designed to keep your critical information safe and accessible 24/7, with optimized performance and uptime guarantees."
+        />
+        <Accordion
+          title="Cabling and Installations"
+          content="Ensure seamless connectivity with our professional cabling and installation services, delivering well-organized setups that enhance performance and scalability."
+        />
+        <Accordion
+          title="Computer Networking"
+          content="Build a reliable and high-speed network infrastructure with our computer networking services, including setup, maintenance, and troubleshooting for optimal connectivity."
+        />
+        <Accordion
+          title="VoIP Services"
+          content="Improve your communication with our VoIP solutions, offering crystal-clear voice calls, cost savings, and advanced features for both businesses and individuals."
+        />
+
         <Accordion
           title="Customizable Auto-Attendant"
           content="Impress your callers with a professional auto-attendant that can be customized to route calls to the appropriate department or individual based on their needs."

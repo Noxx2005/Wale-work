@@ -11,11 +11,11 @@ const Header = () => {
 
   const solutionsColumns = [
     [
-      "Animation & Graphic Design",
+      "Software Development",
       "Artificial Intelligence",
       "Asset Tracking (RFID & Barcode)",
       "AR / VR",
-      "Autodesk",
+      "VoIP Services",
       "Biometrics",
       "Blockchain",
       "Business Intelligence & Analytics",
@@ -31,7 +31,7 @@ const Header = () => {
       "Embedded Software",
       "ERP",
       "Facilities Management",
-      "Field Service Management",
+      "Computer Networking ",
       "Firmware",
       "Franchise Management",
     ],
@@ -45,7 +45,7 @@ const Header = () => {
       "Location Based Services",
       "Middleware",
       "Mobile & Tablet",
-      "Netsuite",
+      "Cabling and installations",
     ],
     [
       "Open Source",
@@ -57,7 +57,7 @@ const Header = () => {
       "Telephony",
       "Ticketing",
       "UI / UX",
-      "UiPath",
+      "Data Hosting",
     ],
   ];
 
