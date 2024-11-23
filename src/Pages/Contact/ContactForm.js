@@ -19,11 +19,7 @@ const ContactForm = () => {
           <input type="tel" id="phone" name="phone" />
         </div>
         <div className="form-group">
-          {/* <div className="recaptcha">
-            <input type="checkbox" id="recaptcha" name="recaptcha" />
-            <label htmlFor="recaptcha">I'm not a robot</label>
-            <img src="path-to-recaptcha-image" alt="reCAPTCHA" />
-          </div> */}
+    
         </div>
         <button type="submit" className="btnq btn-hvr-dark">Submit</button>
       </form>

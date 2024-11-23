@@ -22,7 +22,6 @@ const Home = () => {
   };
 
   const handleSubmit = (email, question) => {
-    // Here you can handle the form submission, e.g., send an email to info@emparex.ca
     console.log('Email:', email);
     console.log('Question:', question);
   };
