@@ -14,8 +14,8 @@ const Footer = () => {
         </div>
         <div className="footer-section phone-numbers">
           <h4>Phone numbers</h4>
-          <p>Toll Free<br/>  <span> 1888-606-0028</span></p>
-          <p>Platform Services<br/>  <span>905-606-0028</span></p>
+          {/* <p>Toll Free<br/>  <span> 1888-606-0028</span></p> */}
+          <p>Platform Services<br/>  <span>289-633-3514</span></p>
           <p>Email<br/><span>Info@emparex.net</span></p>
         </div>
         <div className="footer-section about">
